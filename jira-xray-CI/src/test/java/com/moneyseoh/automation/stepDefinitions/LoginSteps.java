@@ -11,11 +11,19 @@ public class LoginSteps {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Launch the website");
     }
+
     @When("Enter your credentials")
     public void enter_your_credentials() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Enter your credentials");
     }
+
+    @When("Provide incorrect credentials")
+    public void provide_incorrect_credentials() {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("Provide incorrect credentials");
+    }
+
     @Then("Click on Login button")
     public void click_on_login_button() {
         // Write code here that turns the phrase above into concrete actions
