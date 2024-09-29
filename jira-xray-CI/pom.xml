@@ -87,25 +87,6 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-        <plugin>
-          <groupId>net.masterthought</groupId>
-          <artifactId>maven-cucumber-reporting</artifactId>
-          <version>5.6.0</version>
-          <executions>
-            <execution>
-              <id>execution</id>
-              <phase>test-compile</phase>
-              <goals>
-                <goal>generate</goal>
-              </goals>
-              <configuration>
-                <projectName>jira-xray-CI</projectName>
-                <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
-                <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
-              </configuration>
-            </execution>
-          </executions>
-        </plugin>
       </plugins>
     </pluginManagement>
   </build>
