@@ -1,6 +1,6 @@
 Feature: Bank Check Balance
 
-  @TEST_JAVAAUTO-20
+  @TEST_KAN-2
   Scenario: Checking Account Balance after Deposit
     Given my checking account has a balance of $500
     And I have recently made a deposit of $100

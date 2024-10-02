@@ -1,6 +1,6 @@
 Feature: Checking Account Balance after Withdrawal
 
-  @TEST_JAVAAUTO-21
+  @TEST_KAN-3
   Scenario: Checking Account Balance after Withdrawal
     Given my checking account has a balance of $500
     And I have recently made a withdrawal of $100
@@ -9,7 +9,7 @@ Feature: Checking Account Balance after Withdrawal
     But there is a credit interest of $50
     And the available balance should be $450
 
-  @TEST_JAVAAUTO-22
+  @TEST_KAN-4
   Scenario: Checking Account Balance after Withdrawal In-Sufficient Balance
     Given my checking account has a balance of $500
     When I request to withdraw $700
